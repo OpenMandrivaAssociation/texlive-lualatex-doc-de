@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-lualatex-doc-de
 Version:	1.0
-Release:	5
+Release:	6
 Summary:	Guide to LuaLaTeX (German translation)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/luatex/lualatex-doc-de
