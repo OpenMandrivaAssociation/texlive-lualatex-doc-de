@@ -1,18 +1,12 @@
-# revision 30474
-# category Package
-# catalog-ctan /info/luatex/lualatex-doc-de
-# catalog-date 2013-05-14 17:57:54 +0200
-# catalog-license fdl
-# catalog-version 1.0
 Name:		texlive-lualatex-doc-de
-Version:	1.0
-Release:	10
+Version:	30474
+Release:	1
 Summary:	Guide to LuaLaTeX (German translation)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/luatex/lualatex-doc-de
 License:	FDL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc-de.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc-de.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc-de.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc-de.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -31,7 +25,7 @@ others.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
