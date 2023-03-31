@@ -1,6 +1,6 @@
 Name:		texlive-lualatex-doc-de
 Version:	30474
-Release:	1
+Release:	2
 Summary:	Guide to LuaLaTeX (German translation)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/luatex/lualatex-doc-de
